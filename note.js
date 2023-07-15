@@ -95,7 +95,7 @@ addBtn.addEventListener("click",e=>{
         isUpdate=false;
         notes[updateId]=noteInfo;
     }
-    notes.push(noteInfo);
+    
     localStorage.setItem("notes",JSON.stringify(notes));
     closeIcon.click();
     showNote();
